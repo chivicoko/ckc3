@@ -40,7 +40,9 @@ This files contents are outlined below>>>>>
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700');
 body {
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: '', sans-serif;
     font-size: 15px;
     scroll-behavior: smooth;
 }
@@ -1141,17 +1143,17 @@ button:focus {
     opacity: .1; */
 }
 .about-us-text h4 {
-    font-weight: 400;
-    font-size: 23px;
+    font-weight: 700;
+    font-size: 36px;
     color: #ee5544;
 }
 .about-us-text h2 {
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
 }
 .about-us-text h5 {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 23px;
     line-height: 30px;
     margin-bottom: 15px;
 }
@@ -1159,7 +1161,7 @@ button:focus {
     margin-top: 12px;
 }
 .about-video-intro {
-    background-image: url(../img/ckc/fr.jpeg);
+    background-image: url(../img/ckc/fr2\ copy.jpeg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1643,7 +1645,7 @@ a.attrachment:hover, a.attrachment-video:hover, a.question:hover {
 .single-course-info {
     background-color: #f2eee2;
     position: relative;
-    height: 350px;
+    height: 470px;
     margin-bottom: 150px;
 }
 .single-course-info img {
@@ -1889,7 +1891,7 @@ a.reply:hover {
 /* ==============
     CTR CSS 
 ==================================== */
-.ctr-area {
+.ctr-area, #missionVision {
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -1907,7 +1909,7 @@ a.reply:hover {
 .ctr-bg-2 {
     background-image: url("../img/ctr-bg2.jpg");
 }
-.ctr-area:before {
+.ctr-area::before, #missionVision::before{
     content: "";
     background-color: #000;
     height: 100%;
@@ -1916,6 +1918,9 @@ a.reply:hover {
     left: 0;
     top: 0;
     opacity: .7;
+}
+#mission1, #mission2 {
+    z-index: 1;
 }
 .ctr-text-content {
     text-align: center;
@@ -2548,10 +2553,12 @@ a.reply:hover {
 }
 .tutor-title h3 {
     font-size: 20px;
+    font-weight: 700;
     margin-bottom: 0;
 }
 .tutor-title p {
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 700;
     color: #ee5544;
 }
 .single-tutor .email-link {
