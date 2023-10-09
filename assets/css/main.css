@@ -1103,10 +1103,9 @@ button:focus {
     background-image: url(../img/ckc/ckc-logo.png);
     width: 800px;
     height: 500px;
-    font-size: 70px;
     top: -120px;
     left: -120px;
-    opacity: .04;
+    opacity: .03;
 }
 .about-us-text h4 {
     font-weight: 700;
@@ -1122,6 +1121,9 @@ button:focus {
     font-size: 23px;
     line-height: 30px;
     margin-bottom: 15px;
+}
+.about-us-text p {
+    text-align: justify;
 }
 .about-us-text .default-btn {
     margin-top: 12px;
@@ -1687,6 +1689,9 @@ a.attrachment:hover, a.attrachment-video:hover, a.question:hover {
     margin: 0;
     -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
     clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.admissionInfo .single-event-description p {
+    text-align: justify;
 }
 .single-course-info ul {
     list-style-type: none;
