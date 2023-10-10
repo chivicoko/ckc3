@@ -392,6 +392,7 @@ const activePage = window.location;
 const navLinks = document.querySelectorAll("nav li a");
 navLinks.forEach(link => {
     if (link.href.includes(`${activePage}`)) {
+        // console.log(link.href, activePage.href);
         link.classList.add("active");
     }
 });

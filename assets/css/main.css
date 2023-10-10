@@ -1103,7 +1103,17 @@ button:focus {
     background-image: url(../img/ckc/ckc-logo.png);
     width: 800px;
     height: 500px;
-    top: -120px;
+    top: -130px;
+    left: -120px;
+    opacity: .03;
+}
+.about-us::before{
+    position: absolute;
+    content: '';
+    background-image: url(../img/ckc/ckc-logo.png);
+    width: 800px;
+    height: 500px;
+    top: -50px;
     left: -120px;
     opacity: .03;
 }

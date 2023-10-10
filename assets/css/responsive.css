@@ -1957,6 +1957,38 @@
     }
 }
 
+@media only screen and (max-width : 351px) {
+
+    .navbar-light .navbar-brand img {
+        width: 220px;
+    }
+
+    .about-us-text::before{
+        display: none;
+    }
+    .about-img1::before {
+        height: 119px;
+        width: 169px;
+        left: 3px;
+        top: -9px;
+    }
+    .about-img2::before {
+        height: 108px;
+        width: 169px;
+        left: 3px;
+        top: -9px;
+    }
+
+    .about-video-intro {
+        height: 300px;
+        width: 98%;
+    }
+    .about-video-intro:before {
+        height: 330px;
+        width: 350px;
+    }
+}
+
 @media only screen and (max-width : 320px) {
 
     .navbar-light .navbar-brand img {
