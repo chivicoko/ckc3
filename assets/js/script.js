@@ -388,11 +388,15 @@
 
 // vc - navigation links indicator
 const activePage = window.location;
-// console.log(activePage);
+console.log(activePage);
 const navLinks = document.querySelectorAll("nav li a");
 navLinks.forEach(link => {
-    if (link.href.includes(`${activePage}`)) {
-        // console.log(link.href, activePage.href);
+    if (activePage.href === 'http://127.0.0.1:5501/index.html') {
+        document.querySelector('#navbarDropdown').classList.add("active");
+        // document.querySelector('#navbarDropdown').style.fontSize = '9px';
+    } else if (link.href.includes(`${activePage}`)) {
         link.classList.add("active");
+        // link.style.fontSize = '30px';
+        console.log(activePage.href);
     }
 });
